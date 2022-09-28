@@ -1,0 +1,113 @@
+#Enter Choice:
+#	 (0) CMB
+#	 (1) Transfer Function
+#	 (2) Both
+#For lensed Cl we need (2)
+#Enter:   
+2
+
+#Enter value of lmax,ketamax (e.g. 1500 3000)
+#(Must be consistent with the file)
+#(in flat case)
+#Enter: 
+1500 3000
+
+#Enter Transfer Function kmax(h/Mpc), 
+## of k per log. int. (e.g. 5 5)
+#Enter: 
+5 5 
+
+#Enter the number and the redshifts of the output: (e.g. 1 0)
+#If more than one TF is requested then the redshifts
+#have to be specified in the decreasing order
+#Enter the redshifts:
+1 0
+
+#Constant equation of state with dark energy
+# (1) perturbation
+# (3) without perturbation
+# (2) table with a,w with perturbation
+# (4) table with a,w without perturbation
+#Enter 1 or 3 please : 
+3
+
+#Enter w_dyn (e.g. -1) :
+-1
+
+#Enter (1) to include the 5th dimension
+#Enter (0) for usual FRW spacetime
+#Enter choice :
+0
+
+#Enter Omega_b, Omega_c, Omega_de,Omega_nu 
+#(e.g. 0.05 .3 0.65 0)
+0.04 0.24 0.72 0.0
+
+#Enter H0, Tcmb, Y_He, N_nu(massless), N_nu(massive), g*(massive)
+# (e.g. 72 2.726 0.24 3.04 0 10.75)
+#Enter: 
+72 2.726 0.24 3.04 0 10.75
+
+#Enter (0) for Peebles recombination 
+#      (1) for recfast
+#Enter: 
+0
+
+#Enter  (0) for no reionization 
+#       (1) for specified optical depth to lss(xe=1)
+#       (2) for specified redshift and xe
+#
+#Enter Choice: 
+2
+
+#Enter redshift, ionization fraction (e.g. 50 0.2) : 
+#Enter :
+10 1
+
+# (0) for scalar alone 
+# (1) for tensor+scalar
+# (2) for tensors alone
+# (3) for scalar (k<k*)
+# (4) for scalar (k>k*)
+#Enter choice: 
+1
+
+#Enter the inflationary model :
+#  (0)  Single field inflation
+#  (1)  Two field inflation
+0
+
+#Number and values of scaler spectral index n,
+#and its running alpha_n (e.g 1 1 0)
+#Enter choice: 
+1 0.96 0.0
+
+#Tensor spectral index given by 
+# (0) nt=ns-1  
+# (1) different
+#Enter choice: 
+0
+
+#Ratio of tensor to scalar quadrupole given by
+#  (0) 7*(1-n_S)  
+#  (1) different
+#Enter: 
+0
+
+#Enter
+# (0) for unlensed Cl only
+# (1) for lensed Cl linear evalution
+# (2) for lensed Cl nonlinear evalution
+#Only Scaler Cl's are lensed
+#Enter Choice: 
+0
+
+#Enter initial conditions
+#	(1) Isentropic (adiabatic)
+# (2) Isocurvature CDM
+# (3) Isocurvature baryon
+# (4) Isocurvature seed conditions
+1
+
+
+
